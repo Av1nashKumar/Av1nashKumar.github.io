@@ -29,6 +29,41 @@ h2 {
 }
 
 
+
+
+.container { 
+  display: flex;
+  }
+.red {
+  background: orangered;
+  }
+  .grey{
+  	background : #34495E;
+  }
+  .yellow{
+  	background : #F1C40F;
+  }
+.green {
+  background: yellowgreen;
+}
+.blue {
+  background: steelblue;
+}
+.container div {
+  font-size: 3px;
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
 .project-info {
 font-size: 2.2vh;
 }
@@ -191,7 +226,7 @@ text-align: left;
 }
 
 
-@media screen and (min-width: 479px) and (max-width: 767px) {
+@media screen and (min-width: 479px) and (max-width: 768px) {
 
  .item1, .item2, .item3, .item4{
  	width: 100%;
