@@ -86,7 +86,8 @@ hr {
 
 .responsive {
     width: 100%;
-    max-width: 180px;
+        /*max-width: 180px;*/
+    max-width: 27vh;
     height: auto;
     padding-top: 1vw;
 }
